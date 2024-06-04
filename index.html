@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Juegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .game-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 200px;
+        }
+        .game-cover {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .game-details {
+            padding: 15px;
+        }
+        .game-title {
+            font-size: 18px;
+            margin: 0;
+        }
+        .game-info {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Listado de Juegos</h1>
+    <div class="game-container" id="game-container">
+        <!-- Los juegos se insertarán aquí dinámicamente -->
+    </div>
+
+    <script>
+        async function fetchGames() {
+            try {
+                const response = await fetch('games.json'); // Asegúrate de que la ruta al archivo JSON es correcta
+                const games = await response.json();
+                return games;
+            } catch (error) {
+                console.error('Error al cargar el archivo JSON:', error);
+                return {};
+            }
+        }
+
+        function createGameCard(game) {
+            const gameCard = document.createElement('div');
+            gameCard.className = 'game-card';
+
+            const gameCover = document.createElement('img');
+            gameCover.className = 'game-cover';
+            gameCover.src = game.cover_url || 'https://via.placeholder.com/200x200';
+            gameCover.alt = game.nombre;
+
+            const gameDetails = document.createElement('div');
+            gameDetails.className = 'game-details';
+
+            const gameTitle = document.createElement('h2');
+            gameTitle.className = 'game-title';
+            gameTitle.textContent = game.nombre;
+
+            const gameDuration = document.createElement('p');
+            gameDuration.className = 'game-info';
+            gameDuration.textContent = `Duración: ${game.duracion || 'N/A'}`;
+
+            const gameScore = document.createElement('p');
+            gameScore.className = 'game-info';
+            gameScore.textContent = `Puntuación: ${game.puntuacion !== null ? game.puntuacion : 'N/A'}`;
+
+            const gamePrice1 = document.createElement('p');
+            gamePrice1.className = 'game-info';
+            gamePrice1.textContent = `Precio 1: ${game.precio1 !== null ? `$${game.precio1}` : 'N/A'}`;
+
+            const gamePrice2 = document.createElement('p');
+            gamePrice2.className = 'game-info';
+            gamePrice2.textContent = `Precio 2: ${game.precio2 !== null ? `$${game.precio2}` : 'N/A'}`;
+
+            const gameDiscount1 = document.createElement('p');
+            gameDiscount1.className = 'game-info';
+            gameDiscount1.textContent = `Descuento 1: ${game.descuento1 !== null ? `${game.descuento1}%` : 'N/A'}`;
+
+            const gameDiscount2 = document.createElement('p');
+            gameDiscount2.className = 'game-info';
+            gameDiscount2.textContent = `Descuento 2: ${game.descuento2 !== null ? `${game.descuento2}%` : 'N/A'}`;
+
+            const gamePriceOX = document.createElement('p');
+            gamePriceOX.className = 'game-info';
+            gamePriceOX.textContent = `Precio OX: ${game.precioox !== null ? `$${game.precioox}` : 'N/A'}`;
+
+            gameDetails.appendChild(gameTitle);
+            gameDetails.appendChild(gameDuration);
+            gameDetails.appendChild(gameScore);
+            gameDetails.appendChild(gamePrice1);
+            gameDetails.appendChild(gamePrice2);
+            gameDetails.appendChild(gameDiscount1);
+            gameDetails.appendChild(gameDiscount2);
+            gameDetails.appendChild(gamePriceOX);
+
+            gameCard.appendChild(gameCover);
+            gameCard.appendChild(gameDetails);
+
+            return gameCard;
+        }
+
+        async function loadGames() {
+            const games = await fetchGames();
+            const gameContainer = document.getElementById('game-container');
+            Object.values(games).forEach(game => {
+                const gameCard = createGameCard(game);
+                gameContainer.appendChild(gameCard);
+            });
+        }
+
+        loadGames();
+    </script>
+</body>
+</html>
