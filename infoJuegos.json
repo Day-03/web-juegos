@@ -1302,5 +1302,285 @@
         "puntuacion": "84",
         "duracion": "66\u00bd Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3v3qvnayH_ZvNP98dEovIN9BMVrv1YvjAtKuRMXrA7tQgeYNvigOM6282qhs&s"
+    },
+    "Danganronpa Trilogy": {
+        "nombre": "Danganronpa Trilogy",
+        "steam": "No disponible",
+        "amazon": "No disponible",
+        "puntuacion": "7",
+        "duracion": "100 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4a5RNDrfX-vOxNJQ3zKd7Fjf43Cg9RkXf7Ln8aYrUTKeX13M80lr5KVJJgA&s"
+    },
+    "Zero Escape: The Nonary Games": {
+        "nombre": "Zero Escape: The Nonary Games",
+        "steam": "12400",
+        "amazon": "26005",
+        "puntuacion": "87",
+        "duracion": "34 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQakycQ2qhEnes1QFqDSXi80MylhvgVGy2TrWtJECX716xucVBMFn_ZZtm10bA&s"
+    },
+    "999: Nine Hours": {
+        "nombre": "999: Nine Hours",
+        "steam": "4600",
+        "amazon": "No disponible",
+        "puntuacion": "82",
+        "duracion": "10 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdadssAdCtw-VNy8Vbs9kZR1_QIhdyumPponGhm3spksRujBDYZN5GgUH04g&s"
+    },
+    "Virtue's Last Reward": {
+        "nombre": "Virtue's Last Reward",
+        "steam": "1400",
+        "amazon": "No disponible",
+        "puntuacion": "84",
+        "duracion": "27\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScCTXbVKvq6CcLKlmtA1JEgTO4YX9KB2zOdGmbHQhsEwgSCqnEaahO4nIDcAE&s"
+    },
+    "Zero Time Dilemma": {
+        "nombre": "Zero Time Dilemma",
+        "steam": "4200",
+        "amazon": "No disponible",
+        "puntuacion": "83",
+        "duracion": "20\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKDr8V1O8uJsx3XJMqRIKXbBZmLGgK0Zu9hPRAvLRgTafZ84kDqn0LUGVhQo&s"
+    },
+    "The Great Ace Attorney Chronicles": {
+        "nombre": "The Great Ace Attorney Chronicles",
+        "steam": "24000",
+        "amazon": "No disponible",
+        "puntuacion": "86",
+        "duracion": "66\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRagLDWudKzM02pFhJt9Da48XrKvCb58XpVZEjkOm6a6DfKvP8Ar-sp_0ORpg&s"
+    },
+    "Return of the Obra Dinn": {
+        "nombre": "Return of the Obra Dinn",
+        "steam": "8500",
+        "amazon": "No disponible",
+        "puntuacion": "89",
+        "duracion": "8 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm4TqUfqq6Lctf5qsluQXujV0H1zlhOFtoaLJZ3fDoA2rJ6YCKnCBAz19bC-c&s"
+    },
+    "Her Story": {
+        "nombre": "Her Story",
+        "steam": "4600",
+        "amazon": "No disponible",
+        "puntuacion": "86",
+        "duracion": "2\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwGzICXf6XY1Atns9FFd48qvmdo7HWnSsWyWwL1YQvA8i4wvefsL9riHhAsYE&s"
+    },
+    "Telling Lies": {
+        "nombre": "Telling Lies",
+        "steam": "8900",
+        "amazon": "8525",
+        "puntuacion": "84",
+        "duracion": "4 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaLt3YBze5jmJKJbMK0Ndxu0UkakXsvoin9KFgCX-o5R7fwbFHi0NY1w4Axio&s"
+    },
+    "The Witness": {
+        "nombre": "The Witness",
+        "steam": "15900",
+        "amazon": "0",
+        "puntuacion": "87",
+        "duracion": "17 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaT8pvFlV8DA8vK-2H5ldj71H1UFQDpsZnAv1LuwDbGuBMC_l8MbJBl1Lv1g&s"
+    },
+    "Myst": {
+        "nombre": "Myst",
+        "steam": "12400",
+        "amazon": "14500",
+        "puntuacion": "78",
+        "duracion": "5\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcEEQO-p942hYwOT0CAp_uljDiRJkT4D4UlebBstzqgoChdOwSkiYiXK2vxg&s"
+    },
+    "Riven": {
+        "nombre": "Riven",
+        "steam": "2800",
+        "amazon": "2495",
+        "puntuacion": "90",
+        "duracion": "--",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpZyTtNT6BTN5LAlR4pJUc2zMFStMA3PUapEKS32Qywr1UgqbwmsLk_pBI9A&s"
+    },
+    "The Room": {
+        "nombre": "The Room",
+        "steam": "2400",
+        "amazon": "5995",
+        "puntuacion": "75",
+        "duracion": "2\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lYjussU9GUdWkVlC4bAhUqlqXj9cCtR-gF_iJo04M9apjZRO5_qaMNXxxME&s"
+    },
+    "The Room Two": {
+        "nombre": "The Room Two",
+        "steam": "2400",
+        "amazon": "6495",
+        "puntuacion": "88",
+        "duracion": "3 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp2KPBtyR0iXKjoFGU3ZMOCU_EvbRoJarVc2ZenQzmuRjkbTxXzjgyHxz4Rw&s"
+    },
+    "The Room Three": {
+        "nombre": "The Room Three",
+        "steam": "2800",
+        "amazon": "3995",
+        "puntuacion": "90",
+        "duracion": "5 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrLscdoX1vHEkpFbAswUscpOEGilUQKUr8lPlQGPF4vxVZPRRAox_wJBIc3Q&s"
+    },
+    "Monument Valley": {
+        "nombre": "Monument Valley",
+        "steam": "3750",
+        "amazon": "1995",
+        "puntuacion": "89",
+        "duracion": "1\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9dlEXfT-X6_umo7EfzeppU1hVNPfx_FneHNT9zQR9ULvUtTQd5MJ2ZTK1Iw&s"
+    },
+    "Monument Valley 2": {
+        "nombre": "Monument Valley 2",
+        "steam": "3750",
+        "amazon": "2495",
+        "puntuacion": "83",
+        "duracion": "1\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJA-43eZ8FH_AxLTONQwwTSBCj7miwQeEn05Is5miqRXQSJFn_VwDnsVTKquQ&s"
+    },
+    "Limbo": {
+        "nombre": "Limbo",
+        "steam": "4600",
+        "amazon": "12495",
+        "puntuacion": "90",
+        "duracion": "3\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHk7KaYlpr8GsYJU4fcMqdsHhrXH2xKM3jI13oFtFptIfGl15-325x369Xg&s"
+    },
+    "Inside": {
+        "nombre": "Inside",
+        "steam": "8500",
+        "amazon": "1995",
+        "puntuacion": "93",
+        "duracion": "3\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpmYbpvjnGo1p7NiCZbJ6AyhQg9eLZUVAx869FYjGaOoiujrV2t11IgWgCsw&s"
+    },
+    "Little Nightmares": {
+        "nombre": "Little Nightmares",
+        "steam": "9500",
+        "amazon": "13400",
+        "puntuacion": "78",
+        "duracion": "3\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaQ6SiWDg62oyCXvWTnxmF4uxWL9KAh7UmpJIMIPbpfW0AY5kk9Fq5wpg7tQ&s"
+    },
+    "Little Nightmares II": {
+        "nombre": "Little Nightmares II",
+        "steam": "14250",
+        "amazon": "16865",
+        "puntuacion": "82",
+        "duracion": "5\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxnGxq46soTb7RWAkG4Ppq9Q1nO0qmo8WHdLh0LsT5YJc89MwgGzT02PeaxVc&s"
+    },
+    "Braid": {
+        "nombre": "Braid",
+        "steam": "8500",
+        "amazon": "5495",
+        "puntuacion": "93",
+        "duracion": "5 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-HbzhoLpF-g7j9eK1TmT6xsC2YHf59bxGBfBzHXt96FPZbS0PZ9hKkTsrWI&s"
+    },
+    "Fez": {
+        "nombre": "Fez",
+        "steam": "4600",
+        "amazon": "14495",
+        "puntuacion": "89",
+        "duracion": "6 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJS8tuihy8d-Tn1KzdfSci-W7i7tP13dwOyy6rGtSl-QAZVu0twPxqgkGoXg&s"
+    },
+    "Journey": {
+        "nombre": "Journey",
+        "steam": "6900",
+        "amazon": "17985",
+        "puntuacion": "92",
+        "duracion": "2 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqg956STL6Jz74rOe9a2nDOXcPxoADlraiMiApt5kKbvN2PJe9mymAc72Gc-U&s"
+    },
+    "Flower": {
+        "nombre": "Flower",
+        "steam": "3500",
+        "amazon": "21495",
+        "puntuacion": "87",
+        "duracion": "2 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIVWvsWdtsxDXdyKu1DnabEA32aRWuFT-xKVJDv10f3vY-8KfYLiapegDQJF8&s"
+    },
+    "DAYZ": {
+        "nombre": "DAYZ",
+        "steam": "30000",
+        "amazon": "12345",
+        "puntuacion": "31",
+        "duracion": "63\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyKkInzx5VU1T7W0Btv2sJ6HKu_qMtHm_HVMpYwb_9BxGE1loBIvur6SyvNB8&s"
+    },
+    "Gris": {
+        "nombre": "Gris",
+        "steam": "6500",
+        "amazon": "No disponible",
+        "puntuacion": "83",
+        "duracion": "3\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjz6YHFGNzmaUxkyxc63KmuqkiuGIA1hk3yQZ_l9OVAPiytX8gvrrHJhNwA&s"
+    },
+    "Spiritfarer": {
+        "nombre": "Spiritfarer",
+        "steam": "12400",
+        "amazon": "12850",
+        "puntuacion": "84",
+        "duracion": "25 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYkqASnHGNZYQTjuaqi7vK6cNwXnO6DUDr5iQjIP1K6uIJkS4wNT3QTmgdep0&s"
+    },
+    "Oxenfree": {
+        "nombre": "Oxenfree",
+        "steam": "4600",
+        "amazon": "No disponible",
+        "puntuacion": "80",
+        "duracion": "4\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOl2z0L291Knve_QR3-Jqsu9IsldhQc-XTys6QO2wljiH2mjOityg7XklOm18&s"
+    },
+    "Night in the Woods": {
+        "nombre": "Night in the Woods",
+        "steam": "8500",
+        "amazon": "44970",
+        "puntuacion": "88",
+        "duracion": "9 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpKzVpOJmyQLaXWCluVpA4RDZie6KIv_hPfuiER7VVxVsIUriabRZeuQKKTfI&s"
+    },
+    "Kentucky Route Zero": {
+        "nombre": "Kentucky Route Zero",
+        "steam": "10500",
+        "amazon": "35000",
+        "puntuacion": "86",
+        "duracion": "10\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8kCcECi77tmO0lLs26tqzsnguHez8gz9CTh9hfcZf6HwMhR9WHXlbsyhCQ&s"
+    },
+    "Firewatch": {
+        "nombre": "Firewatch",
+        "steam": "8500",
+        "amazon": "8495",
+        "puntuacion": "81",
+        "duracion": "4 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlyH3fxeqf5gqq-5RhBkGHHXr-2V-ONIfR_nYR5lOMl4P2dTs3yS4gNtQTiSI&s"
+    },
+    "What Remains of Edith Finch": {
+        "nombre": "What Remains of Edith Finch",
+        "steam": "8900",
+        "amazon": "9995",
+        "puntuacion": "88",
+        "duracion": "2 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZRFKxVk1C-jhMm4cKP_1bEt0lrYuDyD3j_2lqZbQ1gJV8Ip2r3MixQBPofiU&s"
+    },
+    "Gone Home": {
+        "nombre": "Gone Home",
+        "steam": "1950",
+        "amazon": "12460",
+        "puntuacion": "86",
+        "duracion": "2 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzdTKNM3FMZmV7TZI4u8XIpx4aw_ivPgEoBfoCsP8P_MlghxcNmXM5Q5y7NA0&s"
+    },
+    "Tacoma": {
+        "nombre": "Tacoma",
+        "steam": "2550",
+        "amazon": "399500",
+        "puntuacion": "76",
+        "duracion": "2\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRck-VRTVCfs0tJr4gU22ssm9plVRMqG2lYAXvLR82Y71Z_AkipyeVUNlU3M3s&s"
     }
 }
