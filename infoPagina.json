@@ -161,7 +161,7 @@
     },
     "Mario Kart 8 Deluxe": {
         "nombre": "Mario Kart 8 Deluxe",
-        "steam": "4600",
+        "steam": "No disponible",
         "amazon": "26950",
         "puntuacion": "92",
         "duracion": "6 Hours",
@@ -185,7 +185,7 @@
     },
     "Xenoblade Chronicles: Definitive Edition": {
         "nombre": "Xenoblade Chronicles: Definitive Edition",
-        "steam": "4600",
+        "steam": "No disponible",
         "amazon": "25545",
         "puntuacion": "No disponible",
         "duracion": "57\u00bd Hours",
@@ -209,7 +209,7 @@
     },
     "Metroid Dread": {
         "nombre": "Metroid Dread",
-        "steam": "8500",
+        "steam": "No disponible",
         "amazon": "25145",
         "puntuacion": "88",
         "duracion": "9 Hours",
@@ -217,9 +217,9 @@
     },
     "Link's Awakening": {
         "nombre": "Link's Awakening",
-        "steam": "13300",
+        "steam": "No disponible",
         "amazon": "25645",
-        "puntuacion": "No disponible",
+        "puntuacion": "87",
         "duracion": "14 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb8UnUDbibRtH_pLdQDDSLgBlI6J1qzfTzCR2OUmmFiJZvdM5LfzBFl3KF0Q&s"
     },
@@ -227,7 +227,7 @@
         "nombre": "Paper Mario: The Origami King",
         "steam": "No disponible",
         "amazon": "29950",
-        "puntuacion": "No disponible",
+        "puntuacion": "80",
         "duracion": "27 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9mGiMURFO6VWO-wJ5KNSLqsY-g5UtH2kbA6IugUh6RvwszVDJt6tuLH8GLg&s"
     },
