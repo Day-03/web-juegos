@@ -158,5 +158,85 @@
         "puntuacion": "87",
         "duracion": "27 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uXr1pAgk-GatfDlIPegmgjb1Y5U9dnlfh3FIYHyd37dWnwGGv82KTtq75A&s"
+    },
+    "Mario Kart 8 Deluxe": {
+        "nombre": "Mario Kart 8 Deluxe",
+        "steam": "4600",
+        "amazon": "26950",
+        "puntuacion": "92",
+        "duracion": "6 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNL0jd-lgS2ozra_22a101sacfTChdJb3-uS2t7yMm6Azn0sFUwUxGghEUvg&s"
+    },
+    "Luigi's Mansion 3": {
+        "nombre": "Luigi's Mansion 3",
+        "steam": "No disponible",
+        "amazon": "23245",
+        "puntuacion": "No disponible",
+        "duracion": "13 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw22TXBdgTOND53fpZSPJH_NToVIvsz4cy0aU5JTg7F_SqRNYp8drbnnuk0Q&s"
+    },
+    "Pikmin 3 Deluxe": {
+        "nombre": "Pikmin 3 Deluxe",
+        "steam": "No disponible",
+        "amazon": "24975",
+        "puntuacion": "85",
+        "duracion": "10 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSamArSvgPcOPXa5RrU-9i2xejTtk4zPuzS37D9Ynu2eypm8quZ4Soh3uxJlQ&s"
+    },
+    "Xenoblade Chronicles: Definitive Edition": {
+        "nombre": "Xenoblade Chronicles: Definitive Edition",
+        "steam": "4600",
+        "amazon": "25545",
+        "puntuacion": "No disponible",
+        "duracion": "57\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcKRNcZWuJ0QJFDs-8Oi0O2CW-U27SAQj6GLYdGWcjf43nhLi4HUyDLcQsVQ&s"
+    },
+    "Bayonetta 2": {
+        "nombre": "Bayonetta 2",
+        "steam": "No disponible",
+        "amazon": "32285",
+        "puntuacion": "91",
+        "duracion": "9 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpRbNvxUapJQCPLvsXtFN8G-7Lqrnu1M8ZpgtkTQYb7l2EB2d_9sQ-CfaWxw&s"
+    },
+    "Astral Chain": {
+        "nombre": "Astral Chain",
+        "steam": "No disponible",
+        "amazon": "26195",
+        "puntuacion": "87",
+        "duracion": "20\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvgiHTJa4BjYFtRULk6sCBt0Zb0UJ_hgBnRWBsK-GGbW2BAokuBIIFSgWm9w&s"
+    },
+    "Metroid Dread": {
+        "nombre": "Metroid Dread",
+        "steam": "8500",
+        "amazon": "25145",
+        "puntuacion": "88",
+        "duracion": "9 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg7HfiBaWx0TuranwVMEXkoVQA5zpICXai0Uf2dNi_Orxw0yPw8vBzZ03sMKc&s"
+    },
+    "Link's Awakening": {
+        "nombre": "Link's Awakening",
+        "steam": "13300",
+        "amazon": "25645",
+        "puntuacion": "No disponible",
+        "duracion": "14 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb8UnUDbibRtH_pLdQDDSLgBlI6J1qzfTzCR2OUmmFiJZvdM5LfzBFl3KF0Q&s"
+    },
+    "Paper Mario: The Origami King": {
+        "nombre": "Paper Mario: The Origami King",
+        "steam": "No disponible",
+        "amazon": "29950",
+        "puntuacion": "No disponible",
+        "duracion": "27 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9mGiMURFO6VWO-wJ5KNSLqsY-g5UtH2kbA6IugUh6RvwszVDJt6tuLH8GLg&s"
+    },
+    "Ring Fit Adventure": {
+        "nombre": "Ring Fit Adventure",
+        "steam": "No disponible",
+        "amazon": "39995",
+        "puntuacion": "83",
+        "duracion": "36 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV-diPGtQysAwm5bqgEN7Wj1TqfQ9smwwn7Ad2JCHG5mSOtBvmE5YUhkiz&s"
     }
 }
