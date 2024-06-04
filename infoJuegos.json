@@ -870,5 +870,277 @@
         "puntuacion": "89",
         "duracion": "7 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYcG14nWv4UMBqxHQEnYZCA_vhxXhw946kqyfTo5z_liJdzFCyrvAxf5bxFk&s"
+    },
+    "Skate 3": {
+        "nombre": "Skate 3",
+        "steam": "15900",
+        "amazon": "10965",
+        "puntuacion": "80",
+        "duracion": "9\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr5yoo5gwSl-T-JXM-2v01_iB8hR54bwPdmya65hzfcrkkXmrPHEzN7tRSrgU&s"
+    },
+    "Forza Horizon 4": {
+        "nombre": "Forza Horizon 4",
+        "steam": "23900",
+        "amazon": "23480",
+        "puntuacion": "92",
+        "duracion": "14 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuJEp-nc7MOOlJ4c824pdxSc9BYRCYwadhsSwHMkKfT75EmmbRF7jwZ-jqOo&s"
+    },
+    "Forza Horizon 5": {
+        "nombre": "Forza Horizon 5",
+        "steam": "34000",
+        "amazon": "22485",
+        "puntuacion": "92",
+        "duracion": "20\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfgpzJM-xMlTwCXnp9jS1Rqs1HP8qRq7VBZGUIq-aGJc0vKOU3Gp7Zn7Czsw&s"
+    },
+    "Gran Turismo Sport": {
+        "nombre": "Gran Turismo Sport",
+        "steam": "8500",
+        "amazon": "9475",
+        "puntuacion": "75",
+        "duracion": "25 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgIHEE7GhU2n2Fk5TqAnqrNlJ1fH7EfeRwOrAe1GpR7WdVeSQ59TVfPfl5DQ&s"
+    },
+    "Need for Speed Heat": {
+        "nombre": "Need for Speed Heat",
+        "steam": "40000",
+        "amazon": "10950",
+        "puntuacion": "72",
+        "duracion": "13\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReqUtMpZ92mPl7m1-ATz4Vp2Zx_GemynKoWUV6p0yGw79P30Rzf5X5QoVYyj8&s"
+    },
+    "Dirt 5": {
+        "nombre": "Dirt 5",
+        "steam": "23900",
+        "amazon": "28495",
+        "puntuacion": "79",
+        "duracion": "8\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBPCfLBhlSh4mzodekzTFL_ftYxQGGyaJ7sq1_QSVnFR89E20jokUWsHACWXk&s"
+    },
+    "WRC 10": {
+        "nombre": "WRC 10",
+        "steam": "2400",
+        "amazon": "14995",
+        "puntuacion": "76",
+        "duracion": "14\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq9zyt56L-_7_DYvWYvMYb4x2zRt1DAbAZIEGNcSOcB1DBaMnFH4PvV6kig&s"
+    },
+    "F1 2022": {
+        "nombre": "F1 2022",
+        "steam": "12400",
+        "amazon": "29995",
+        "puntuacion": "No disponible",
+        "duracion": "25\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpTxDcFUeWokm6wlmYbDdpkpnu6QU8_o7G0GGDrRWiTfcglB1BtNITVDRSTFM&s"
+    },
+    "FIFA 23": {
+        "nombre": "FIFA 23",
+        "steam": "250",
+        "amazon": "14750",
+        "puntuacion": "76",
+        "duracion": "85\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXioIYHUiDdnOjku-0A4a2mgP2zDji5spzw3zcnC7agtAWEYx5ggdXyIpZBQ&s"
+    },
+    "NBA 2K23": {
+        "nombre": "NBA 2K23",
+        "steam": "40800",
+        "amazon": "14500",
+        "puntuacion": "78",
+        "duracion": "42 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7Ra7DE-KAkTM-roBlV9x_yXs2_JYpx6ek9JNqP-4wsqxyIKgnpljoBqzAQ&s"
+    },
+    "Madden NFL 23": {
+        "nombre": "Madden NFL 23",
+        "steam": "No disponible",
+        "amazon": "13495",
+        "puntuacion": "69",
+        "duracion": "71\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_U7ceHN8N4Qs1Nmn-NjRbfxztCNNTN4Mhw5z_Mr7yYt6zoZHECHDup8sFUk&s"
+    },
+    "NHL 23": {
+        "nombre": "NHL 23",
+        "steam": "No disponible",
+        "amazon": "7230",
+        "puntuacion": "71",
+        "duracion": "12 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2L3vfEFvvsV9sWjXefL1070gLpjpTrjI-WckmR19i_hUpFYWCrSSDKgfBOQ&s"
+    },
+    "PGA Tour 2K23": {
+        "nombre": "PGA Tour 2K23",
+        "steam": "10200",
+        "amazon": "9995",
+        "puntuacion": "76",
+        "duracion": "15\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJfXVC_hNaewKsTfa9MKlsv4S1Y7Dv17yrkiMADe4qr02B_EV9YhJ6bqFbiw4&s"
+    },
+    "Tony Hawk's Pro Skater 1 + 2": {
+        "nombre": "Tony Hawk's Pro Skater 1 + 2",
+        "steam": "9850",
+        "amazon": "15990",
+        "puntuacion": "No disponible",
+        "duracion": "7 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYcG14nWv4UMBqxHQEnYZCA_vhxXhw946kqyfTo5z_liJdzFCyrvAxf5bxFk&s"
+    },
+    "Skate 3": {
+        "nombre": "Skate 3",
+        "steam": "15900",
+        "amazon": "10965",
+        "puntuacion": "80",
+        "duracion": "9\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr5yoo5gwSl-T-JXM-2v01_iB8hR54bwPdmya65hzfcrkkXmrPHEzN7tRSrgU&s"
+    },
+    "Forza Horizon 4": {
+        "nombre": "Forza Horizon 4",
+        "steam": "23900",
+        "amazon": "23480",
+        "puntuacion": "92",
+        "duracion": "14 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuJEp-nc7MOOlJ4c824pdxSc9BYRCYwadhsSwHMkKfT75EmmbRF7jwZ-jqOo&s"
+    },
+    "Forza Horizon 5": {
+        "nombre": "Forza Horizon 5",
+        "steam": "34000",
+        "amazon": "22485",
+        "puntuacion": "92",
+        "duracion": "20\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfgpzJM-xMlTwCXnp9jS1Rqs1HP8qRq7VBZGUIq-aGJc0vKOU3Gp7Zn7Czsw&s"
+    },
+    "Gran Turismo Sport": {
+        "nombre": "Gran Turismo Sport",
+        "steam": "8500",
+        "amazon": "9475",
+        "puntuacion": "75",
+        "duracion": "25 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgIHEE7GhU2n2Fk5TqAnqrNlJ1fH7EfeRwOrAe1GpR7WdVeSQ59TVfPfl5DQ&s"
+    },
+    "Need for Speed Heat": {
+        "nombre": "Need for Speed Heat",
+        "steam": "40000",
+        "amazon": "10950",
+        "puntuacion": "72",
+        "duracion": "13\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReqUtMpZ92mPl7m1-ATz4Vp2Zx_GemynKoWUV6p0yGw79P30Rzf5X5QoVYyj8&s"
+    },
+    "Dirt 5": {
+        "nombre": "Dirt 5",
+        "steam": "23900",
+        "amazon": "28495",
+        "puntuacion": "79",
+        "duracion": "8\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBPCfLBhlSh4mzodekzTFL_ftYxQGGyaJ7sq1_QSVnFR89E20jokUWsHACWXk&s"
+    },
+    "WRC 10": {
+        "nombre": "WRC 10",
+        "steam": "2400",
+        "amazon": "14995",
+        "puntuacion": "76",
+        "duracion": "14\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMq9zyt56L-_7_DYvWYvMYb4x2zRt1DAbAZIEGNcSOcB1DBaMnFH4PvV6kig&s"
+    },
+    "F1 2022": {
+        "nombre": "F1 2022",
+        "steam": "14500",
+        "amazon": "29995",
+        "puntuacion": "79",
+        "duracion": "25\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpTxDcFUeWokm6wlmYbDdpkpnu6QU8_o7G0GGDrRWiTfcglB1BtNITVDRSTFM&s"
+    },
+    "FIFA 23": {
+        "nombre": "FIFA 23",
+        "steam": "250",
+        "amazon": "14750",
+        "puntuacion": "76",
+        "duracion": "85\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXioIYHUiDdnOjku-0A4a2mgP2zDji5spzw3zcnC7agtAWEYx5ggdXyIpZBQ&s"
+    },
+    "NBA 2K23": {
+        "nombre": "NBA 2K23",
+        "steam": "40800",
+        "amazon": "14500",
+        "puntuacion": "78",
+        "duracion": "42 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7Ra7DE-KAkTM-roBlV9x_yXs2_JYpx6ek9JNqP-4wsqxyIKgnpljoBqzAQ&s"
+    },
+    "Madden NFL 23": {
+        "nombre": "Madden NFL 23",
+        "steam": "No disponible",
+        "amazon": "13495",
+        "puntuacion": "69",
+        "duracion": "71\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_U7ceHN8N4Qs1Nmn-NjRbfxztCNNTN4Mhw5z_Mr7yYt6zoZHECHDup8sFUk&s"
+    },
+    "NHL 23": {
+        "nombre": "NHL 23",
+        "steam": "No disponible",
+        "amazon": "7230",
+        "puntuacion": "71",
+        "duracion": "12 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2L3vfEFvvsV9sWjXefL1070gLpjpTrjI-WckmR19i_hUpFYWCrSSDKgfBOQ&s"
+    },
+    "PGA Tour 2K23": {
+        "nombre": "PGA Tour 2K23",
+        "steam": "10200",
+        "amazon": "9995",
+        "puntuacion": "76",
+        "duracion": "15\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJfXVC_hNaewKsTfa9MKlsv4S1Y7Dv17yrkiMADe4qr02B_EV9YhJ6bqFbiw4&s"
+    },
+    "Tony Hawk's Pro Skater 1 + 2": {
+        "nombre": "Tony Hawk's Pro Skater 1 + 2",
+        "steam": "9850",
+        "amazon": "15990",
+        "puntuacion": "89",
+        "duracion": "7 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYcG14nWv4UMBqxHQEnYZCA_vhxXhw946kqyfTo5z_liJdzFCyrvAxf5bxFk&s"
+    },
+    "Skate 4": {
+        "nombre": "Skate 4",
+        "steam": "6500",
+        "amazon": "6740",
+        "puntuacion": "97",
+        "duracion": "11 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu1bQF07UTfo3GBYx6MCCm2vlGSgnVUbGy4-hKO1h36YISdNFmekFmRLveEg&s"
+    },
+    "Forza Motorsport 7": {
+        "nombre": "Forza Motorsport 7",
+        "steam": "2000",
+        "amazon": "51995",
+        "puntuacion": "86",
+        "duracion": "29 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Y3eBr9ah5yVCSjKMEL3GKZTSCw6XFTmuphJcoPaa3A_Ci-jMbdcreoRPzwU&s"
+    },
+    "Gran Turismo 7": {
+        "nombre": "Gran Turismo 7",
+        "steam": "4600",
+        "amazon": "23475",
+        "puntuacion": "87",
+        "duracion": "25 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfKTA3VBFUjKN8YN4MIiS6ROU8V2jmOnoQkO6oAs9-QDcI1_fdpSUumTC2Q&s"
+    },
+    "Need for Speed Unbound": {
+        "nombre": "Need for Speed Unbound",
+        "steam": "45000",
+        "amazon": "9965",
+        "puntuacion": "77",
+        "duracion": "22\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAJ5g4sxFXWEDIepMswqLvqZ-JS2RnSDs9__jNqdjmhk8kGLZ64USYkXCLlQ&s"
+    },
+    "Dirt Rally 2.0": {
+        "nombre": "Dirt Rally 2.0",
+        "steam": "10500",
+        "amazon": "9915",
+        "puntuacion": "84",
+        "duracion": "12\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZkeUcL5isKu-5JJt6YtkowmQN38_iSYHm_-0-dNLEvvKHveXRzb3pRyZFrg&s"
+    },
+    "WRC Generations": {
+        "nombre": "WRC Generations",
+        "steam": "15900",
+        "amazon": "No disponible",
+        "puntuacion": "74",
+        "duracion": "13 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSkWPmOLqMstlWBJiIiBVxvUlTC1cEkusbs8q5PH2PEe-WA-uYdIy_Ayww8o&s"
     }
 }
