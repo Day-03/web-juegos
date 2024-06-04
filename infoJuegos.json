@@ -630,5 +630,245 @@
         "puntuacion": "89",
         "duracion": "10 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-EPZlhbaK7kd8tVQUCpBpB9lOtP1c2IpYu9__CdOaZ5H7ng-WjT4MbH5N-w&s"
+    },
+    "Dota 2": {
+        "nombre": "Dota 2",
+        "steam": "Gratuito",
+        "amazon": "No disponible",
+        "puntuacion": "90",
+        "duracion": "1470 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSahp5f-GJWfICxi_yEX3aJXwGFB0lv7ZnfdNAwtWkLjRPVE2RXdbDPYj_AlrY&s"
+    },
+    "Counter-Strike: Global Offensive": {
+        "nombre": "Counter-Strike: Global Offensive",
+        "steam": "Gratuito",
+        "amazon": "No disponible",
+        "puntuacion": "83",
+        "duracion": "712 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZD2r6LrQP9APxsdeAgQruPXNk9Q5afu4AX14QJVpnRTTta8t8sjSJAZ-ow&s"
+    },
+    "League of Legends": {
+        "nombre": "League of Legends",
+        "steam": "No disponible",
+        "amazon": "No disponible",
+        "puntuacion": "78",
+        "duracion": "1764 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy8c64UDvQZm7gM16ddsPZaYHw0CzWk4efVDYlZBX4GuNFyluhtvlTiJGdug&s"
+    },
+    "Overwatch": {
+        "nombre": "Overwatch",
+        "steam": "Gratuito",
+        "amazon": "No disponible",
+        "puntuacion": "91",
+        "duracion": "311 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1f0JSNdqc8xVdrByBqLhto51vMcdD2ec5JthkYg_DYvWWkjZlm-xOs--aMQ&s"
+    },
+    "Diablo III": {
+        "nombre": "Diablo III",
+        "steam": "21540",
+        "amazon": "10995",
+        "puntuacion": "88",
+        "duracion": "18 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA2POPjXRDh8r-RWhrbe0uaCICQezJP9kv94KClJQ3dBofmXGjvlPdCni6Nw&s"
+    },
+    "World of Warcraft": {
+        "nombre": "World of Warcraft",
+        "steam": "No disponible",
+        "amazon": "No disponible",
+        "puntuacion": "93",
+        "duracion": "2260 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu62TBGuQmmOH6fzHSDxAONDHfR2OOh-6YkenVRjaUdrIinMTQkmQddctPIg&s"
+    },
+    "StarCraft II": {
+        "nombre": "Starcraft II: Wings of Liberty",
+        "steam": "No disponible",
+        "amazon": "No disponible",
+        "puntuacion": "93",
+        "duracion": "18 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkEiFsPiXhc1F0Oj_QkUxKnQcGqRd27hO3MT_51hZRfqbTLnky7poVSetXjw&s"
+    },
+    "Hearthstone": {
+        "nombre": "Hearthstone",
+        "steam": "No disponible",
+        "amazon": "No disponible",
+        "puntuacion": "88",
+        "duracion": "96 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiB1_UXA9Kp6P5Pl18mMqW7suj_T8rkmzWhvBCBiye1X3qFQDD7xMQFpiwXNs&s"
+    },
+    "Heroes of the Storm": {
+        "nombre": "Heroes of the Storm",
+        "steam": "Heroes of the Storm",
+        "amazon": "Heroes of the Storm",
+        "puntuacion": "86",
+        "duracion": "703 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmdx8-NurqCy0qimiyyeHehT7vxoCVXecvcRSV1HZzu1SnRrE25SHMAR5tPw&s"
+    },
+    "Rainbow Six Siege": {
+        "nombre": "Rainbow Six Siege",
+        "steam": "11900",
+        "amazon": "6990",
+        "puntuacion": "73",
+        "duracion": "15 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU707JxifqkNmypzhT1AWMCJqnOUnSALfrg8RjYC9s9syUFeTS-OJGZFHZnA&s"
+    },
+    "Battlefield V": {
+        "nombre": "Battlefield V",
+        "steam": "32000",
+        "amazon": "9855",
+        "puntuacion": "81",
+        "duracion": "6 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjUjzDYa-_TdEQ9Ndr7zdUbGcj7LTRCoOpBVRjgP5iiNSWOJIBXmT7OOXsPxk&s"
+    },
+    "Battlefield 1": {
+        "nombre": "Battlefield 1",
+        "steam": "23000",
+        "amazon": "13425",
+        "puntuacion": "88",
+        "duracion": "6\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlkYtMedxthMT-jgXsIm8L9u7eRQYoYj5eeD9OQ2P_wt0lnOxkWIRh3Y4v3Q&s"
+    },
+    "Titanfall 2": {
+        "nombre": "Titanfall 2",
+        "steam": "17000",
+        "amazon": "4990",
+        "puntuacion": "89",
+        "duracion": "6 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL0on-sOgGF7LoQhRRCmP7gAXLUOap7_RIYxbeNoHPDPCwny_76At94lJLTQ&s"
+    },
+    "Star Wars Jedi: Fallen Order": {
+        "nombre": "Star Wars Jedi: Fallen Order",
+        "steam": "23000",
+        "amazon": "10745",
+        "puntuacion": "79",
+        "duracion": "17 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX861eXCU8-QPpZCI2wg4ed_HAnXqcQy1R149Y_-yRSeBmiR3GKwauLkNU0jM&s"
+    },
+    "Star Wars Battlefront II": {
+        "nombre": "Star Wars Battlefront II",
+        "steam": "23000",
+        "amazon": "7985",
+        "puntuacion": "68",
+        "duracion": "7\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlTg3hoepj_tT4vqtj-o3gbXDMDQUjzIRWnJ1mq5lE5zuBg7yfVQmd1RYzEBo&s"
+    },
+    "Destiny 2": {
+        "nombre": "Destiny 2",
+        "steam": "19900",
+        "amazon": "32435",
+        "puntuacion": "85",
+        "duracion": "12 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPfwvhmCaG4GQO3m-hlOOdWuJJCoEmld90Ke3Yx0_GZO0mAAsEDZq5elo8L5g&s"
+    },
+    "Warframe": {
+        "nombre": "Warframe",
+        "steam": "11000",
+        "amazon": "9995",
+        "puntuacion": "64",
+        "duracion": "577 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgkvLVEiAxyas3kegARgfTvSIZlrRuHpTFsN1HNC518N2fIldF5PurAuyKHoc&s"
+    },
+    "Path of Exile": {
+        "nombre": "Path of Exile",
+        "steam": "11160",
+        "amazon": "25000",
+        "puntuacion": "86",
+        "duracion": "30 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg4FCa-P7F_mrhPVsJLgQ74koPMBoZCQw3Sf-J_1ul7jwMz8Yvd-7SrT5ex4k&s"
+    },
+    "Genshin Impact": {
+        "nombre": "Genshin Impact",
+        "steam": "No disponible",
+        "amazon": "4995",
+        "puntuacion": "81",
+        "duracion": "59 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqKZ2wGG-UGj4Qa_uGstzS9p5K9jmQBqank2JnJncSSiud-yVHOFlRigRv1Y&s"
+    },
+    "F1 2021": {
+        "nombre": "F1 2021",
+        "steam": "3300",
+        "amazon": "6495",
+        "puntuacion": "84",
+        "duracion": "10\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKttFCoRnrEVQTpQBBkPb3VA7HNUSwV9EapoF_UIHZtOYVu5v4hHTWn_FHgw&s"
+    },
+    "FIFA 21": {
+        "nombre": "FIFA 21",
+        "steam": "6200",
+        "amazon": "9900",
+        "puntuacion": "72",
+        "duracion": "113 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWlo2W0EnXZ407NI5H4WwqPuJe7o33NUKqaiJ9auMjNPc21_VqHCLqYYjbrQ&s"
+    },
+    "FIFA 22": {
+        "nombre": "FIFA 22",
+        "steam": "250",
+        "amazon": "17495",
+        "puntuacion": "78",
+        "duracion": "97\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-myxyHY2-YmFbDBDz-UeQChYv71zMXZUu_6Jx90oVqL4E1RZ5mFnr6e30A&s"
+    },
+    "NBA 2K21": {
+        "nombre": "NBA 2K21",
+        "steam": "5105",
+        "amazon": "7495",
+        "puntuacion": "68",
+        "duracion": "35 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnxrN-L1wTxKR6HxD1xGQBT9hSn6NkwcYjM246PDVad1vLuDCkPseNneLq8qo&s"
+    },
+    "NBA 2K22": {
+        "nombre": "NBA 2K22",
+        "steam": "5105",
+        "amazon": "7095",
+        "puntuacion": "76",
+        "duracion": "131 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiqZ3foUeEliKI0JcjxVI4W2Pdw1KX3SeItS9SQwbTOaRZfYytg5z4jDNMWg&s"
+    },
+    "Madden NFL 21": {
+        "nombre": "Madden NFL 21",
+        "steam": "No disponible",
+        "amazon": "9445",
+        "puntuacion": "63",
+        "duracion": "21 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZfwNiTyhpZB-LDCrPCYTbDiA87SiMZroqcfCxlPK4-dXF29_CEgdyT55oqj4&s"
+    },
+    "Madden NFL 22": {
+        "nombre": "Madden NFL 22",
+        "steam": "No disponible",
+        "amazon": "9150",
+        "puntuacion": "68",
+        "duracion": "38 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRowENe4upOC-8yZmdypXcjePg1-9517gBGO9V-OzkJvEZk223njtqsWw46dWM&s"
+    },
+    "NHL 21": {
+        "nombre": "NHL 21",
+        "steam": "No disponible",
+        "amazon": "3300",
+        "puntuacion": "72",
+        "duracion": "28 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OvADhnXqg7KzWzdslt-RgWjaYkGQ3jLweKc9T9BhaNGTUlCNjAGeVi7TYw&s"
+    },
+    "NHL 22": {
+        "nombre": "NHL 22",
+        "steam": "No disponible",
+        "amazon": "5995",
+        "puntuacion": "71",
+        "duracion": "60\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr-G_71n5ak8ssMa_erARRN8cZ2uG7We8mUUC-yplyo_8D_yycfMJJ6YbY0ZM&s"
+    },
+    "PGA Tour 2K21": {
+        "nombre": "PGA Tour 2K21",
+        "steam": "33990",
+        "amazon": "6675",
+        "puntuacion": "76",
+        "duracion": "22\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnGwF5Hku_bWP_s4n6PHmSyIxzpEt6JfR6Et5v7Z-T1ga2xslbo5uEwGfMgA&s"
+    },
+    "Tony Hawk's Pro Skater 1 + 2": {
+        "nombre": "Tony Hawk's Pro Skater 1 + 2",
+        "steam": "9850",
+        "amazon": "15990",
+        "puntuacion": "89",
+        "duracion": "7 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHYcG14nWv4UMBqxHQEnYZCA_vhxXhw946kqyfTo5z_liJdzFCyrvAxf5bxFk&s"
     }
 }
