@@ -1142,5 +1142,165 @@
         "puntuacion": "74",
         "duracion": "13 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSkWPmOLqMstlWBJiIiBVxvUlTC1cEkusbs8q5PH2PEe-WA-uYdIy_Ayww8o&s"
+    },
+    "Just Dance 2022": {
+        "nombre": "Just Dance 2022",
+        "steam": "No disponible",
+        "amazon": "14000",
+        "puntuacion": "72",
+        "duracion": "12\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyIQ0obp3Uyj1L-GansdPu2QUqQ1UG6ReepFNWkxhwVp6DW0R07pQ0MC9ixw&s"
+    },
+    "Just Dance 2023": {
+        "nombre": "Just Dance 2023",
+        "steam": "No disponible",
+        "amazon": "11000",
+        "puntuacion": "77",
+        "duracion": "--",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLQh7MAho3JAeXS7tOVQWmRojFyfcOPjwRafTYEbmXA2PoIvjxNLmDfi6GTg&s"
+    },
+    "Beat Saber": {
+        "nombre": "Beat Saber",
+        "steam": "12400",
+        "amazon": "No disponible",
+        "puntuacion": "86",
+        "duracion": "6 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8R9iAl0ug_MJjrcDa4dkWgEICQTXpRRJbS_1jk6EbH3zlJ7zyngtGlP11Las&s"
+    },
+    "Dance Dance Revolution": {
+        "nombre": "Dance Dance Revolution",
+        "steam": "6500",
+        "amazon": "No disponible",
+        "puntuacion": "90",
+        "duracion": "6\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcv0QF31KXXhTj5mKZJWe5NTHnZ8O1SHBctH0SKEvHscaPKd54MTQ3fQgCgNg&s"
+    },
+    "Guitar Hero Live": {
+        "nombre": "Guitar Hero Live",
+        "steam": "21600",
+        "amazon": "No disponible",
+        "puntuacion": "80",
+        "duracion": "4\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHD8Ai6-v1Jglj__hsUFFZxEYjad9v0u49uEochEdUG7VnieLHwxBqrX4Zbw&s"
+    },
+    "Rock Band 4": {
+        "nombre": "Rock Band 4",
+        "steam": "11900",
+        "amazon": "No disponible",
+        "puntuacion": "78",
+        "duracion": "15 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-qUKKUQJOUXDH355GYC-n14ENDhavoOr9LC5x2ujb-bcmxHUQqkhHPkJzhdM&s"
+    },
+    "SingStar": {
+        "nombre": "SingStar",
+        "steam": "1220",
+        "amazon": "No disponible",
+        "puntuacion": "6",
+        "duracion": "10 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiCE6L_Xm2sAzRYUw5lEVpd2rcTm9heatLbGZ7dMfXqthBFNAXb_LA8_H2Kg&s"
+    },
+    "Taiko no Tatsujin: Drum 'n' Fun!": {
+        "nombre": "Taiko no Tatsujin: Drum 'n' Fun!",
+        "steam": "No disponible",
+        "amazon": "No disponible",
+        "puntuacion": "78",
+        "duracion": "4 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXLcH1pOOXBsCcbmH39gxGC2NnpHKXXhGKuzKo5Z0JezdGUby9aestZfAX_qo&s"
+    },
+    "Crypt of the NecroDancer": {
+        "nombre": "Crypt of the NecroDancer",
+        "steam": "6500",
+        "amazon": "No disponible",
+        "puntuacion": "87",
+        "duracion": "14 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRATD4TGHfYeC_x4IaRO9tZcmOtRsAQLkR3VRQDpmSrzlqcMC96Uo7vZ2lk-Mo&s"
+    },
+    "Cadence of Hyrule": {
+        "nombre": "Cadence of Hyrule",
+        "steam": "No disponible",
+        "amazon": "27485",
+        "puntuacion": "85",
+        "duracion": "6 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoj5gl3qzOLcAMHIyUZmkzCkBBnw_oqaX2Xj6p-oa5c7rFBgtH-unTxgiZqfY&s"
+    },
+    "Thumper": {
+        "nombre": "Thumper",
+        "steam": "8500",
+        "amazon": "69500",
+        "puntuacion": "84",
+        "duracion": "7\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjgm-fHs7GPowv944YVqGgPjRwKScHlWtmxwKtOgqKicOQqHcEU9_3kvjqrA&s"
+    },
+    "Rez Infinite": {
+        "nombre": "Rez Infinite",
+        "steam": "10500",
+        "amazon": "14605",
+        "puntuacion": "89",
+        "duracion": "2 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6eJphHEFXOZmNoN_YscKT71qV_S9Jn-Jmf8Yvd4TcUZgn4IqYpgwLnHUNDIE&s"
+    },
+    "Tetris Effect: Connected": {
+        "nombre": "Tetris Effect: Connected",
+        "steam": "9540",
+        "amazon": "19995",
+        "puntuacion": "88",
+        "duracion": "3 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWsyHbsh9su8T6irIG5Rm6s6D63Se5UmkvVwYw0lEzMgPL7qA2UOLCjgEwqc&s"
+    },
+    "Puyo Puyo Tetris 2": {
+        "nombre": "Puyo Puyo Tetris 2",
+        "steam": "17000",
+        "amazon": "13600",
+        "puntuacion": "80",
+        "duracion": "8\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAhRqHeQmD769nceiCQF9I8g37PZVKlcJ73sG6spxNTKSPQKV4_W_za9OSmDU&s"
+    },
+    "Lumines Remastered": {
+        "nombre": "Lumines Remastered",
+        "steam": "6500",
+        "amazon": "28600",
+        "puntuacion": "83",
+        "duracion": "5\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHaPX_d2KLFjSDZX1BESTpsv3SnOTMZObmFrNiMKNJ8TvL4uycic8FF2VXpc&s"
+    },
+    "Picross S5": {
+        "nombre": "Picross S5",
+        "steam": "No disponible",
+        "amazon": "5995",
+        "puntuacion": "71",
+        "duracion": "27\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgaRA3ry-bMAtoxUVg9Itpw88ehS8oFigwrqPowiWS526Uuyp_TB5Kq3Xqa6U&s"
+    },
+    "Picross S6": {
+        "nombre": "Picross S6",
+        "steam": "No disponible",
+        "amazon": "14995",
+        "puntuacion": "66",
+        "duracion": "16 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSilYqf8lMUTxhwp4MLXUjUi9BJ1T84g-Ap1QuKx8YMjxHAPPS3KffYRGmhBQ&s"
+    },
+    "Super Puzzle Fighter II Turbo": {
+        "nombre": "Super Puzzle Fighter II Turbo",
+        "steam": "1200",
+        "amazon": "No disponible",
+        "puntuacion": "83",
+        "duracion": "1 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO7XEwEb17g9vt3APVvwqcgcmYcR9jOC9XWhvG39XFNRsBM7LVuuF_E1tLSA&s"
+    },
+    "Professor Layton and the Unwound Future": {
+        "nombre": "Professor Layton and the Unwound Future",
+        "steam": "No disponible",
+        "amazon": "No disponible",
+        "puntuacion": "86",
+        "duracion": "15 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRDKyVw_ECb11NIVxkHRnAHxU_y3lleLtr5bSx2ideUQwYolL2i-G3kubBSw&s"
+    },
+    "Ace Attorney Trilogy": {
+        "nombre": "Ace Attorney Trilogy",
+        "steam": "4600",
+        "amazon": "No disponible",
+        "puntuacion": "84",
+        "duracion": "66\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3v3qvnayH_ZvNP98dEovIN9BMVrv1YvjAtKuRMXrA7tQgeYNvigOM6282qhs&s"
     }
 }
