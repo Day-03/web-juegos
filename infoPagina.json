@@ -416,10 +416,10 @@
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZj50-YBm4Nt9G5SVmouymtdUShWvhO9iLs-TfbHNWOoBY9RdNQCYNb_ptzYo&s"
     },
     "Pokemon Let's Go": {
-        "nombre": "Pokemon Let's Go",
+        "nombre": "Pokemon Let's Go Pikachu",
         "steam": "No disponible",
         "amazon": "27135",
-        "puntuacion": "No disponible",
+        "puntuacion": "79",
         "duracion": "25 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZl8sATz3bv39UzhUX07kcFhP8XjTgB3Qt8hV6JCjyJQnDZ3LN59Yt788W3w&s"
     },
@@ -432,16 +432,16 @@
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs3x025-gSJw2JmwgD9luzVqDXrvfmqSOhKZSZWYh2IY-JrBubDgwJuWDf9g&s"
     },
     "Dragon Quest XI S": {
-        "nombre": "Dragon Quest XI S",
+        "nombre": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
         "steam": "22500",
         "amazon": "24845",
-        "puntuacion": "No disponible",
+        "puntuacion": "91",
         "duracion": "58 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwrp_yzg3GpTsDp2tUvtSrgfzxXRJ6NU9leIII_QO_vxlyFcsFgYWVJD8X2Y&s"
     },
     "Splatoon 3": {
         "nombre": "Splatoon 3",
-        "steam": "1900",
+        "steam": "No disponible",
         "amazon": "24985",
         "puntuacion": "83",
         "duracion": "8\u00bd Hours",
@@ -449,7 +449,7 @@
     },
     "Super Mario Party": {
         "nombre": "Super Mario Party",
-        "steam": "2800",
+        "steam": "No disponible",
         "amazon": "27000",
         "puntuacion": "76",
         "duracion": "7 Hours",
@@ -467,7 +467,7 @@
         "nombre": "Hyrule Warriors: Age of Calamity",
         "steam": "10100",
         "amazon": "25245",
-        "puntuacion": "No disponible",
+        "puntuacion": "78",
         "duracion": "24\u00bd Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcMkPgX4hhpOtFjnrm0QldHbgIUMEA3O14kpqCLlz4qgMZVKZzuqVM4r8YRQ&s"
     },
@@ -491,7 +491,7 @@
         "nombre": "ARK: Survival Evolved",
         "steam": "6500",
         "amazon": "18490",
-        "puntuacion": "No disponible",
+        "puntuacion": "70",
         "duracion": "207 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYUGoWnwqd3gFbhT3NJWW-4m5eJln1UXEmV6sX9oeaTpGOLgNCRBuwehVtSg&s"
     },
@@ -507,14 +507,14 @@
         "nombre": "No Man's Sky",
         "steam": "11950",
         "amazon": "12750",
-        "puntuacion": "No disponible",
+        "puntuacion": "71",
         "duracion": "30\u00bd Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8iPRUqP9ivVtuRjbBhZ4vJAUohQzM3vUIbCQHMvaIyZUYEEaZlQBbCdeL_w&s"
     },
     "Rocket League": {
         "nombre": "Rocket League",
-        "steam": "4600",
-        "amazon": "7900",
+        "steam": "No disponible",
+        "amazon": "No disponible",
         "puntuacion": "85",
         "duracion": "43 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9gP_2NBUWaOA4FF5iwPsS5FKHYtgkq6jtO1oz6vvnPqxCh7K4AqYk_GtbA&s"
@@ -550,5 +550,85 @@
         "puntuacion": "69",
         "duracion": "62\u00bd Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBs3Hjb4q9SljHWHimKhvTrrH98YRKdeQYJyFTHFLje8w5MzOYZdezmghYw&s"
+    },
+    "Elite Dangerous": {
+        "nombre": "Elite Dangerous",
+        "steam": "8500",
+        "amazon": "11445",
+        "puntuacion": "80",
+        "duracion": "109 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0WGYpE0u0sOUkx55amrWmaq3Q-aTAZizWAmmdb5aWqT0wmz5RBdd-2Ghra18&s"
+    },
+    "Outer Wilds": {
+        "nombre": "Outer Wilds",
+        "steam": "10900",
+        "amazon": "19995",
+        "puntuacion": "85",
+        "duracion": "17 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3DvCSonwfUv_yHiYU2NevgijdU8X7kDbm_NSJ5DoGSFEa5jN0MGwTYHkcCGk&s"
+    },
+    "Control": {
+        "nombre": "Control",
+        "steam": "22500",
+        "amazon": "27995",
+        "puntuacion": "82",
+        "duracion": "11\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIOj5oQ2DNYi9nRsI73_MkRLGFU0bD5lE2xcw8VkToorL_j4W6igWedbHJEw&s"
+    },
+    "Alan Wake": {
+        "nombre": "Alan Wake",
+        "steam": "6500",
+        "amazon": "7475",
+        "puntuacion": "83",
+        "duracion": "11 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt4ts-8NU86oNvm-11rfRLgI9MIOyloiixn-z2tHsIKelP6i7y-JBb4WRUo94&s"
+    },
+    "Quantum Break": {
+        "nombre": "Quantum Break",
+        "steam": "15900",
+        "amazon": "7750",
+        "puntuacion": "77",
+        "duracion": "10 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWALR6DwS4WH8MKZqMEj2eBZHb0p3i50iviHxYBXZ3Pe8Hq-WxkRF70D2Q4g&s"
+    },
+    "Half-Life: Alyx": {
+        "nombre": "Half-Life: Alyx",
+        "steam": "23900",
+        "amazon": "5995",
+        "puntuacion": "93",
+        "duracion": "12 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzVbIZlxEZsM3zNPuUh7dppLpcv7qOUC0p2AVNDq7IMWtVR88t_p4Ido6RWI&s"
+    },
+    "Portal 2": {
+        "nombre": "Portal 2",
+        "steam": "4600",
+        "amazon": "7985",
+        "puntuacion": "95",
+        "duracion": "8\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSddgJbrjieM6EMz6fGzeJdZOzZPMLjyMwFf8jIn0pEVhwsjEmwIsAo_d4YVA&s"
+    },
+    "Portal": {
+        "nombre": "Portal",
+        "steam": "4600",
+        "amazon": "94475",
+        "puntuacion": "90",
+        "duracion": "3 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOX5ykyuyJsN5HaMFGPRpRmHbF8jjjRzGEm8h22qRlU2X2zlNl55xf-z7fow8&s"
+    },
+    "Team Fortress 2": {
+        "nombre": "Team Fortress 2",
+        "steam": "5800",
+        "amazon": "7990",
+        "puntuacion": "92",
+        "duracion": "568 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-K0Y8lTrTyvPwa8wkGXsna0bQjdBXB15Git7ewhnB-xWk7-hTAhvVqAme8Q&s"
+    },
+    "Left 4 Dead 2": {
+        "nombre": "Left 4 Dead 2",
+        "steam": "4600",
+        "amazon": "36740",
+        "puntuacion": "89",
+        "duracion": "10 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-EPZlhbaK7kd8tVQUCpBpB9lOtP1c2IpYu9__CdOaZ5H7ng-WjT4MbH5N-w&s"
     }
 }
