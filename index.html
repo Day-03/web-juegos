@@ -3,130 +3,326 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listado de Juegos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            padding: 20px;
-        }
-        .game-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .game-card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            width: 200px;
-        }
-        .game-cover {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        .game-details {
-            padding: 15px;
-        }
-        .game-title {
-            font-size: 18px;
-            margin: 0;
-        }
-        .game-info {
-            margin: 5px 0;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <h1>Listado de Juegos</h1>
-    <div class="game-container" id="game-container">
-        <!-- Los juegos se insertarán aquí dinámicamente -->
-    </div>
-
-    <script>
-        async function fetchGames() {
-            try {
-                const response = await fetch('games.json'); // Asegúrate de que la ruta al archivo JSON es correcta
-                const games = await response.json();
-                return games;
-            } catch (error) {
-                console.error('Error al cargar el archivo JSON:', error);
-                return {};
+        <title>InforJuegos</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
             }
-        }
-
-        function createGameCard(game) {
-            const gameCard = document.createElement('div');
-            gameCard.className = 'game-card';
-
-            const gameCover = document.createElement('img');
-            gameCover.className = 'game-cover';
-            gameCover.src = game.cover_url || 'https://via.placeholder.com/200x200';
-            gameCover.alt = game.nombre;
-
-            const gameDetails = document.createElement('div');
-            gameDetails.className = 'game-details';
-
-            const gameTitle = document.createElement('h2');
-            gameTitle.className = 'game-title';
-            gameTitle.textContent = game.nombre;
-
-            const gameDuration = document.createElement('p');
-            gameDuration.className = 'game-info';
-            gameDuration.textContent = `Duración: ${game.duracion || 'N/A'}`;
-
-            const gameScore = document.createElement('p');
-            gameScore.className = 'game-info';
-            gameScore.textContent = `Puntuación: ${game.puntuacion !== null ? game.puntuacion : 'N/A'}`;
-
-            const gamePrice1 = document.createElement('p');
-            gamePrice1.className = 'game-info';
-            gamePrice1.textContent = `Precio 1: ${game.precio1 !== null ? `$${game.precio1}` : 'N/A'}`;
-
-            const gamePrice2 = document.createElement('p');
-            gamePrice2.className = 'game-info';
-            gamePrice2.textContent = `Precio 2: ${game.precio2 !== null ? `$${game.precio2}` : 'N/A'}`;
-
-            const gameDiscount1 = document.createElement('p');
-            gameDiscount1.className = 'game-info';
-            gameDiscount1.textContent = `Descuento 1: ${game.descuento1 !== null ? `${game.descuento1}%` : 'N/A'}`;
-
-            const gameDiscount2 = document.createElement('p');
-            gameDiscount2.className = 'game-info';
-            gameDiscount2.textContent = `Descuento 2: ${game.descuento2 !== null ? `${game.descuento2}%` : 'N/A'}`;
-
-            const gamePriceOX = document.createElement('p');
-            gamePriceOX.className = 'game-info';
-            gamePriceOX.textContent = `Precio OX: ${game.precioox !== null ? `$${game.precioox}` : 'N/A'}`;
-
-            gameDetails.appendChild(gameTitle);
-            gameDetails.appendChild(gameDuration);
-            gameDetails.appendChild(gameScore);
-            gameDetails.appendChild(gamePrice1);
-            gameDetails.appendChild(gamePrice2);
-            gameDetails.appendChild(gameDiscount1);
-            gameDetails.appendChild(gameDiscount2);
-            gameDetails.appendChild(gamePriceOX);
-
-            gameCard.appendChild(gameCover);
-            gameCard.appendChild(gameDetails);
-
-            return gameCard;
-        }
-
-        async function loadGames() {
-            const games = await fetchGames();
-            const gameContainer = document.getElementById('game-container');
-            Object.values(games).forEach(game => {
-                const gameCard = createGameCard(game);
-                gameContainer.appendChild(gameCard);
-            });
-        }
-
-        loadGames();
-    </script>
-</body>
-</html>
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 20px;
+            }
+            .juego {
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                margin: 10px;
+                padding: 20px;
+                width: calc(33% - 40px);
+                box-sizing: border-box;
+            }
+            .juego h2 {
+                font-size: 1.5em;
+                margin-top: 0;
+            }
+            .juego p {
+                margin: 0.5em 0;
+            }
+            .juego img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+            }
+            .section {
+                margin: 20px;
+            }
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 1em;
+                color: #fff;
+                background-color: #007BFF;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                margin: 20px;
+            }
+            .button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+        <script>
+            function mostrarCatalogo() {
+                document.getElementById('catalogo').style.display = 'block';
+                document.getElementById('juegosAleatorios').style.display = 'none';
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="text-align:center;">Info de Juegos</h1>
+        <div id="juegosAleatorios" class="section">
+            <h2>Juegos Aleatorios</h2>
+            <div class="container">
+    
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbE8vyGWxMSfY_n9IjxKqQP9rP1Qz3hGcNSj31KvpoUhkHp7FuR5wPU0cpWiI&s" alt="Portada de Sekiro: Shadows Die Twice">
+            <h2>Sekiro: Shadows Die Twice</h2>
+            <p>Steam: 34365</p>
+            <p>Amazon: 20995</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 30 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGNlW2yKwAweg1fyR721PIAozGsFSP-g3sDv9KslL7R55j5jxfy0xphR7V_E&s" alt="Portada de Apex Legends">
+            <h2>Apex Legends</h2>
+            <p>Steam: 17000</p>
+            <p>Amazon: 7500</p>
+            <p>Puntuacion: 89</p>
+            <p>Duracion: 178 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+            </div>
+            <button class="button" onclick="mostrarCatalogo()">Ver Cat�logo Completo</button>
+        </div>
+        <div id="catalogo" class="section" style="display:none;">
+            <h2>Cat�logo Completo</h2>
+            <div class="container">
+    
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbK08I23oeWmmyqci-Jk59uIbbXw_G5ZQwaUJSRwC79wdm-1n4C8h9SUEV0jQ&s" alt="Portada de The Legend of Zelda: Breath of the Wild">
+            <h2>The Legend of Zelda: Breath of the Wild</h2>
+            <p>Steam: 8500</p>
+            <p>Amazon: 24000</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 50� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKBkBr6Kwt9HPdBiznAvbXMDr5Y1939fFGqiyWzoBBJPVa4u18r-LGvmuY3Q&s" alt="Portada de Animal Crossing: New Horizons">
+            <h2>Animal Crossing: New Horizons</h2>
+            <p>Steam: 27900</p>
+            <p>Amazon: 25745</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 104 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk-FV44zQJeu513r24n8L2LmZJ_-hV4OZr4LtPrTxbcQOI433jnpp_Knck-w&s" alt="Portada de Super Mario Odyssey">
+            <h2>Super Mario Odyssey</h2>
+            <p>Steam: No disponible</p>
+            <p>Amazon: 25000</p>
+            <p>Puntuacion: 97</p>
+            <p>Duracion: 12� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS1B8-xVRfLITpbbogUnjQgAKtheOZD9Jgrr-1yKfdOJdDOvSNgg8Rv5JIcbs&s" alt="Portada de Cyberpunk 2077">
+            <h2>Cyberpunk 2077</h2>
+            <p>Steam: 34900</p>
+            <p>Amazon: 19950</p>
+            <p>Puntuacion: 86</p>
+            <p>Duracion: 25 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVU1o9P51hfkJ1apD1n8jFD2yypJKVX0ip13gMmMn5_ll7zuKD1xkIlUT1yw&s" alt="Portada de Red Dead Redemption 2">
+            <h2>Red Dead Redemption 2</h2>
+            <p>Steam: 13995</p>
+            <p>Amazon: 12895</p>
+            <p>Puntuacion: 97</p>
+            <p>Duracion: 50� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfmQHs0QvzuOwQYr0vgYWzK4-Ll_vyeMYnqOgYLt5dkvQyfG3pOPZa-sjECDY&s" alt="Portada de The Witcher 3: Wild Hunt">
+            <h2>The Witcher 3: Wild Hunt</h2>
+            <p>Steam: 15900</p>
+            <p>Amazon: 12400</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 51� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZnJk02Wd3vFnMnVRd9K_1ens4vq6_OX9_Q-EQCot2hq_Z8mF59FupSgbzew&s" alt="Portada de Grand Theft Auto V">
+            <h2>Grand Theft Auto V</h2>
+            <p>Steam: 8305</p>
+            <p>Amazon: 13195</p>
+            <p>Puntuacion: 97</p>
+            <p>Duracion: 32 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbE8vyGWxMSfY_n9IjxKqQP9rP1Qz3hGcNSj31KvpoUhkHp7FuR5wPU0cpWiI&s" alt="Portada de Sekiro: Shadows Die Twice">
+            <h2>Sekiro: Shadows Die Twice</h2>
+            <p>Steam: 34365</p>
+            <p>Amazon: 20995</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 30 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX8xlVianVesD6wmKf3HxuMx53sFZXg4qjztaz0wusyuXeggZDZ17IKHeDsOA&s" alt="Portada de Dark Souls III">
+            <h2>Dark Souls III</h2>
+            <p>Steam: 26000</p>
+            <p>Amazon: 11245</p>
+            <p>Puntuacion: 89</p>
+            <p>Duracion: 32 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoE5vM_0mT9lGW_yNTi5xCaF7Aim-arVl_9I91vx52wV6X9BrsGi0DDR1fBm0&s" alt="Portada de Ghost of Tsushima">
+            <h2>Ghost of Tsushima</h2>
+            <p>Steam: 32500</p>
+            <p>Amazon: 17440</p>
+            <p>Puntuacion: 83</p>
+            <p>Duracion: 25 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI7bkQuKY_RCgKVXEVOW7FniopWhg6FNIDVm-edXeuKln_bW3gLXY425-a5g&s" alt="Portada de Horizon Zero Dawn">
+            <h2>Horizon Zero Dawn</h2>
+            <p>Steam: 26500</p>
+            <p>Amazon: 8995</p>
+            <p>Puntuacion: 89</p>
+            <p>Duracion: 22� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ7USophgNCmKqVBdPHjqU0mWTee-4v0Mjr2uT55ePnMdjotYOLTTS96yXDQ&s" alt="Portada de Final Fantasy VII Remake">
+            <h2>Final Fantasy VII Remake</h2>
+            <p>Steam: 44000</p>
+            <p>Amazon: 18500</p>
+            <p>Puntuacion: 87</p>
+            <p>Duracion: 32� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Xde-TpAfElQMXi6yxX7s3yRMfNMF9qB7SjZyIvE6WH-PrLymsUC3dxO1Aw&s" alt="Portada de Resident Evil Village">
+            <h2>Resident Evil Village</h2>
+            <p>Steam: 25960</p>
+            <p>Amazon: 14995</p>
+            <p>Puntuacion: 84</p>
+            <p>Duracion: 9� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf9DzgADaKu3GedK6F95BkBOAi7_OcZxj5JSq8-2LzNlpFJSEpWeXdg9PWmg&s" alt="Portada de Assassin's Creed Valhalla">
+            <h2>Assassin's Creed Valhalla</h2>
+            <p>Steam: 34900</p>
+            <p>Amazon: 12495</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 61 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd-BCkC8w_AmV6Hbpn9m64f6P47b6E20xNhnWD6X-Gyzoad95mvsCGq_1CHz8&s" alt="Portada de Call of Duty: Modern Warfare">
+            <h2>Call of Duty: Modern Warfare</h2>
+            <p>Steam: 12540</p>
+            <p>Amazon: 34995</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 6 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRZTlzivQJrtDJ5FB3TZ3zx4C70mWLIKp3Bnk6xwM3eqq6n0jwjkPVRwyTrA&s" alt="Portada de Call of Duty: Warzone">
+            <h2>Call of Duty: Warzone</h2>
+            <p>Steam: 1220</p>
+            <p>Amazon: 9495</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 86� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNVX8CtQmj8IntcePYiVsun9SYEyUBw6UbKORkbp929p8cbGBNbaV9aRJyV3s&s" alt="Portada de Fortnite">
+            <h2>Fortnite</h2>
+            <p>Steam: 15900</p>
+            <p>Amazon: 9965</p>
+            <p>Puntuacion: 78</p>
+            <p>Duracion: 62 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaGNlW2yKwAweg1fyR721PIAozGsFSP-g3sDv9KslL7R55j5jxfy0xphR7V_E&s" alt="Portada de Apex Legends">
+            <h2>Apex Legends</h2>
+            <p>Steam: 17000</p>
+            <p>Amazon: 7500</p>
+            <p>Puntuacion: 89</p>
+            <p>Duracion: 178 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoOJlyb_KZfmYQXxKiL9U_GKdz-jOSyjJqJc17txkSPLuANbvPUeDlB-zIsDw&s" alt="Portada de The Elder Scrolls V: Skyrim">
+            <h2>The Elder Scrolls V: Skyrim</h2>
+            <p>Steam: 21900</p>
+            <p>Amazon: 26350</p>
+            <p>Puntuacion: No disponible</p>
+            <p>Duracion: 34� Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+        <div class='juego'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uXr1pAgk-GatfDlIPegmgjb1Y5U9dnlfh3FIYHyd37dWnwGGv82KTtq75A&s" alt="Portada de Fallout 4">
+            <h2>Fallout 4</h2>
+            <p>Steam: 11900</p>
+            <p>Amazon: 10995</p>
+            <p>Puntuacion: 87</p>
+            <p>Duracion: 27 Hours</p>
+            <p>Descuento Steam: No disponible</p>
+            <p>Descuento Amazon: No disponible</p>
+        </div>
+        
+            </div>
+        </div>
+    </body>
+    </html>
+    
