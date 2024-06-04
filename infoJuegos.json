@@ -1582,5 +1582,125 @@
         "puntuacion": "76",
         "duracion": "2\u00bd Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRck-VRTVCfs0tJr4gU22ssm9plVRMqG2lYAXvLR82Y71Z_AkipyeVUNlU3M3s&s"
+    },
+    "The Vanishing of Ethan Carter": {
+        "nombre": "The Vanishing of Ethan Carter",
+        "steam": "8500",
+        "amazon": "0",
+        "puntuacion": "82",
+        "duracion": "4 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp5A47V66zma9pr7eHNa6t1_9w5F0--eOp6kEvG37a4kPaUsz0COsxbHJ9BQ&s"
+    },
+    "Everybody's Gone to the Rapture": {
+        "nombre": "Everybody's Gone to the Rapture",
+        "steam": "10500",
+        "amazon": "15490",
+        "puntuacion": "78",
+        "duracion": "4\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyBck_17RrOVR-SDP7NeExh_WRsIh7Vp15VrGytaSjCPiIetx6RfF5X1SClQ&s"
+    },
+    "Dear Esther": {
+        "nombre": "Dear Esther",
+        "steam": "4600",
+        "amazon": "7500",
+        "puntuacion": "75",
+        "duracion": "1\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT35q8vScJYseR3GyjS37ZiuGJxB1TQuApsoLLEHXJNcqSkszvbl006uwJf2EU&s"
+    },
+    "A Short Hike": {
+        "nombre": "A Short Hike",
+        "steam": "2625",
+        "amazon": "18095",
+        "puntuacion": "88",
+        "duracion": "1\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPD20YqQdU4z1_yRgLvaDOqHpSlxXUXvjDPbaNYjb3peh5MGmJiRKjeAxlFg&s"
+    },
+    "Celeste": {
+        "nombre": "Celeste",
+        "steam": "8500",
+        "amazon": "9495",
+        "puntuacion": "92",
+        "duracion": "8\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_Ye6HbFvtvQEVuSkAPrE5AeIvoV5pFGD9ddAZrO3DVwEdk2lw_HfCtNx7kY&s"
+    },
+    "Hyper Light Drifter": {
+        "nombre": "Hyper Light Drifter",
+        "steam": "8500",
+        "amazon": "9995",
+        "puntuacion": "84",
+        "duracion": "8 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaIMZFHuwMC9vcEdiGD4guD5Wk5bH5viZfcu7e0kPt-lv47CA_glhXHcAHWQ&s"
+    },
+    "Enter the Gungeon": {
+        "nombre": "Enter the Gungeon",
+        "steam": "6500",
+        "amazon": "7995",
+        "puntuacion": "82",
+        "duracion": "23 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqrYeSl1mb82Gr0DwAqh5pADtLXJYZ-fHcRqNuPDt94ShyAeOd_HgOplijFCg&s"
+    },
+    "Dead Cells": {
+        "nombre": "Dead Cells",
+        "steam": "10500",
+        "amazon": "13590",
+        "puntuacion": "89",
+        "duracion": "14 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjzwvmHQUUXbJZ252PjIapZOJ4iBUAtSLwYaZHsaiWoTBNMzRM-29kFATDo8&s"
+    },
+    "Katana Zero": {
+        "nombre": "Katana Zero",
+        "steam": "6500",
+        "amazon": "7495",
+        "puntuacion": "83",
+        "duracion": "4\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4o_Gq25CtEDyovfF9YhH5iMEqPbxh2XHrnnkpe4Vy0HWXH0NceYJAPeQJeW0&s"
+    },
+    "Slay the Spire": {
+        "nombre": "Slay the Spire",
+        "steam": "10500",
+        "amazon": "9995",
+        "puntuacion": "89",
+        "duracion": "12 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThGy3zqAoEFlmTe-brX2awIMXQhIywnYen2VP2sORDSeqLW2Ly7vBM_IlaM3k&s"
+    },
+    "Monster Train": {
+        "nombre": "Monster Train",
+        "steam": "10500",
+        "amazon": "7995",
+        "puntuacion": "86",
+        "duracion": "3 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpaD0SoEo25W12x73G_OThD07bipgSCpBmjNgxorTrJqjDNJjCdB5u68dlbA&s"
+    },
+    "Hades": {
+        "nombre": "Hades",
+        "steam": "10500",
+        "amazon": "23995",
+        "puntuacion": "93",
+        "duracion": "23 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWMilzQ5P60IcmHJly7PgwesnmpqRwmYg7IxNaCYb9TlVpsJ5yI6umsov3NyU&s"
+    },
+    "Rogue Legacy 2": {
+        "nombre": "Rogue Legacy 2",
+        "steam": "10500",
+        "amazon": "53980",
+        "puntuacion": "88",
+        "duracion": "26\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPnipXXL6dlsLGlZadWdtqiKLWi090CqHEXMzDof03inzuP6h3o3acLJ4B0A&s"
+    },
+    "Company of Heroes 2": {
+        "nombre": "Company of Heroes 2",
+        "steam": "9000",
+        "amazon": "9895",
+        "puntuacion": "80",
+        "duracion": "15\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwFRrk7teI1dZ3npbRMiiLYIQsVRps7eIqcaSKdclNYzpc5cn4TU6wlf3QbTs&s"
+    },
+    "GOAT OF DUTY": {
+        "nombre": "GOAT OF DUTY",
+        "steam": "4420",
+        "amazon": "19500",
+        "puntuacion": "70",
+        "duracion": "1 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3kSDNpr5WIIEHDkhOA8LQ9eu-aSbgU4U2RDHXu3wcPNuAY903Z4USiZWYRg&s"
     }
 }
