@@ -159,6 +159,166 @@
         "duracion": "27 Hours",
         "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uXr1pAgk-GatfDlIPegmgjb1Y5U9dnlfh3FIYHyd37dWnwGGv82KTtq75A&s"
     },
+    "DOOM Eternal": {
+        "nombre": "DOOM Eternal",
+        "steam": "21900",
+        "amazon": "18030",
+        "puntuacion": "88",
+        "duracion": "14\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNjisga7Lnppv4YkMTeAz6f9uG-pw0IXlr3fAkrimJKbfFFvmu4g1PFDvWpyk&s"
+    },
+    "Hades": {
+        "nombre": "Hades",
+        "steam": "10500",
+        "amazon": "23995",
+        "puntuacion": "93",
+        "duracion": "23 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWMilzQ5P60IcmHJly7PgwesnmpqRwmYg7IxNaCYb9TlVpsJ5yI6umsov3NyU&s"
+    },
+    "Among Us": {
+        "nombre": "Among Us",
+        "steam": "2500",
+        "amazon": "6830",
+        "puntuacion": "85",
+        "duracion": "19 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRADVXRLeWe269km181YO36bn5RZkG9i6OGVvuQauO-YwBB4Nys8JuqNVVE78s&s"
+    },
+    "Stardew Valley": {
+        "nombre": "Stardew Valley",
+        "steam": "6500",
+        "amazon": "12495",
+        "puntuacion": "89",
+        "duracion": "53 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9PbCtSMg1Ua119MPuNFriDJxeZ_PWCG-gCxE4huQvymWJ6Ef5JRd3Lut9NQ&s"
+    },
+    "Hollow Knight": {
+        "nombre": "Hollow Knight",
+        "steam": "6500",
+        "amazon": "10995",
+        "puntuacion": "90",
+        "duracion": "27 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSme5gkRWJs0LpvyWpbh9FeRwyzFXkSd4KlP9AywrQ6gPUQuUL7cMWmn6xPAg&s"
+    },
+    "Cuphead": {
+        "nombre": "Cuphead",
+        "steam": "8500",
+        "amazon": "17495",
+        "puntuacion": "86",
+        "duracion": "10\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4R-hbmXpEzDp5eD1pmg_oq26oBFQHQbeTzAYTXvulZwaWTcaFac5cel3CxQ&s"
+    },
+    "Celeste": {
+        "nombre": "Celeste",
+        "steam": "8500",
+        "amazon": "62460",
+        "puntuacion": "92",
+        "duracion": "8\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_Ye6HbFvtvQEVuSkAPrE5AeIvoV5pFGD9ddAZrO3DVwEdk2lw_HfCtNx7kY&s"
+    },
+    "Monster Hunter: World": {
+        "nombre": "Monster Hunter: World",
+        "steam": "6425",
+        "amazon": "13500",
+        "puntuacion": "No disponible",
+        "duracion": "47\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ259-kwopeKsFDkVVXXNTjhobYHwqeXaWMwBWiY2987k1ylRs1yYz7PwBI2sQ&s"
+    },
+    "Borderlands 3": {
+        "nombre": "Borderlands 3",
+        "steam": "4050",
+        "amazon": "9965",
+        "puntuacion": "81",
+        "duracion": "23 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymg6F5TZ3DVkH0QMQjhnVAqnr8XB7jYVtA3rW8YAttUuTEpH8yCgXvRlCBA&s"
+    },
+    "Persona 5 Royal": {
+        "nombre": "Persona 5 Royal",
+        "steam": "31500",
+        "amazon": "16200",
+        "puntuacion": "95",
+        "duracion": "101 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJKa8FSNYVszwa1O4Tq5IaoDKnpwDJk2qNEpsV3GwypBUl_tM_0GfWxvl0vg&s"
+    },
+    "NieR: Automata": {
+        "nombre": "NieR: Automata",
+        "steam": "15930",
+        "amazon": "11195",
+        "puntuacion": "No disponible",
+        "duracion": "21 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ao8XJ-JupEgWtz5smjZNQtd45pnS9gzieojP4lJeuKaifNgd5YAM5d-kchA&s"
+    },
+    "Yakuza: Like a Dragon": {
+        "nombre": "Yakuza: Like a Dragon",
+        "steam": "34000",
+        "amazon": "7495",
+        "puntuacion": "No disponible",
+        "duracion": "45\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThx5sN_xD1Kuc1beC0aXurETg-pX3x4n9hfV830tmycSOCqtzZ-rF4llsmYg&s"
+    },
+    "Dead Cells": {
+        "nombre": "Dead Cells",
+        "steam": "10500",
+        "amazon": "13590",
+        "puntuacion": "89",
+        "duracion": "14 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSjzwvmHQUUXbJZ252PjIapZOJ4iBUAtSLwYaZHsaiWoTBNMzRM-29kFATDo8&s"
+    },
+    "Divinity: Original Sin 2": {
+        "nombre": "Divinity: Original Sin 2",
+        "steam": "17800",
+        "amazon": "24995",
+        "puntuacion": "No disponible",
+        "duracion": "59 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmExOZN3YzXUBarIdEPwUuuaYFN4fzze5yU0moynzRvaeoWs2h0zC5AZUkAuA&s"
+    },
+    "Disco Elysium": {
+        "nombre": "Disco Elysium",
+        "steam": "15900",
+        "amazon": "9195",
+        "puntuacion": "91",
+        "duracion": "23\u00bd Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSBg_2svdh-rrEUqgJ-gxt5vLoGzueEPYl7aYJk3yzx3zONjSiqYkzNJPodcc&s"
+    },
+    "Ori and the Will of the Wisps": {
+        "nombre": "Ori and the Will of the Wisps",
+        "steam": "12400",
+        "amazon": "16895",
+        "puntuacion": "90",
+        "duracion": "12 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwfXkoyrMod63ELbZFuEIu8HxqbNTI2GgG2Nr-AE0v46rCt4bYXYdqYb6ccg&s"
+    },
+    "Undertale": {
+        "nombre": "Undertale",
+        "steam": "1150",
+        "amazon": "7990",
+        "puntuacion": "92",
+        "duracion": "7 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1n7VCQxeZuMW1LW8HHVk1PMAdPr-BTw2XtLayse4R-LEJ7M51fP2tMP8CEQ&s"
+    },
+    "Fire Emblem: Three Houses": {
+        "nombre": "Fire Emblem: Three Houses",
+        "steam": "23000",
+        "amazon": "24750",
+        "puntuacion": "No disponible",
+        "duracion": "49 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBhc_VT100xlqHrQan09wlnZ0cb7H9JpmCDp_cAEQZnOTeYP5ndwKftin_Eo&s"
+    },
+    "Splatoon 2": {
+        "nombre": "Splatoon 2",
+        "steam": "No disponible",
+        "amazon": "22495",
+        "puntuacion": "83",
+        "duracion": "8 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBWvIoG-H3ihmm81N8dUVXJeWDumpHN7U0M_hh8MjTNPwe7SPV4CwocvoDAA&s"
+    },
+    "Super Smash Bros. Ultimate": {
+        "nombre": "Super Smash Bros. Ultimate",
+        "steam": "10500",
+        "amazon": "27495",
+        "puntuacion": "No disponible",
+        "duracion": "24 Hours",
+        "cover_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtl0XbdUx1DC5_mRk62Ko45_ANqR1j82F5ijAKGanifjG7-g3uPSFt5RZmbfs&s"
+    },
     "Mario Kart 8 Deluxe": {
         "nombre": "Mario Kart 8 Deluxe",
         "steam": "No disponible",
